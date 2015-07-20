@@ -10,7 +10,7 @@ $(document).ready(function(){
 			alerta(mensaje);
 		}else{
 			$.ajax({
-				url:"http://localhost:8500/rpc_scroll/query.cfc?method=login&user="+u+"&pass="+p,
+				url:"rpc_scroll/query.cfc?method=login&user="+u+"&pass="+p,
 				//http://localhost:8500/rpc_scroll/query.cfc?method=login&user=lgonzalez&pass=Ebenezer07*
 				beforeSend:function(){
 					//alert(u+" "+p)
