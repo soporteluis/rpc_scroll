@@ -4,7 +4,8 @@
 <html lang="en">
 
 <head>
-	<title>Document</title>
+	<title>Scroll RPC</title>
+	<link rel="icon" type="image/png" href="img/favicon.png" />
 	<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 	<link rel="stylesheet" href="css/css.css">
 	<script src="js/jquery.js"></script>
