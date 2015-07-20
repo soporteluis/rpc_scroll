@@ -10,7 +10,7 @@ $(document).ready(function(){
 			alerta(mensaje);
 		}else{
 			$.ajax({
-				url:"rpc_scroll/query.cfc?method=login&user="+u+"&pass="+p,
+				url:"query.cfc?method=login&user="+u+"&pass="+p,
 				//http://localhost:8500/rpc_scroll/query.cfc?method=login&user=lgonzalez&pass=Ebenezer07*
 				beforeSend:function(){
 					//alert(u+" "+p)
@@ -18,7 +18,7 @@ $(document).ready(function(){
 				success:function(da){
 					if(da == "true"){
 						//console.log("logueo correcto con el usuario: "+da[0].NAME);
-						window.location.href = "http://localhost:8500/rpc_scroll/menu.cfm";
+						window.location.href = "menu.cfm";
 					}else{
 						var mensaje = "Error al procesar los datos del usuario " + u;
 						alerta(mensaje)
